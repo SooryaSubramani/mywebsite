@@ -15,7 +15,7 @@ root.render(
     <BrowserRouter>
     <Reactheadder/> 
     <Routes>
-      <Route path="/" element={<App />} />
+      <Route path="/#" element={<App />} />
         <Route path="/signin" element={<SigninPage />} />
         <Route path="/home" element={<Home />} />
         <Route path='/home' element={<Home/>}/>
