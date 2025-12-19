@@ -20,9 +20,9 @@ function SigninPage() {
  
   return (
 
+    <div className='container App'>
     
-    
-    <div className="App">
+   
 
       
  <img src={logo} className="App-logo" alt="logo" />
@@ -46,8 +46,8 @@ function SigninPage() {
 
 
  
-
-    </div>
+</div>
+    
   );
   
 }
