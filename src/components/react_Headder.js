@@ -20,7 +20,7 @@ function Reactheadder() {
     
      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
        {/* <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none"> */}
-         <img  width="40" height="32"  role="img" src={logo} className="App-logo" alt="logo" />
+         <img  width="40" height="32"  role="img" src={logo} alt="logo" />
           <img  width="40" height="32"  src={html} alt="logo" />
           <img  width="40" height="32"  src={css} alt="logo" />
           <img  width="40" height="32"  src={javascript} alt="logo" />
