@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './logo.svg';
 import { Link, Outlet, useNavigate, Route, Routes } from "react-router";
 import { Button } from 'bootstrap';
+
 ;
 // import './App.css';
 
@@ -19,6 +20,8 @@ function SigninPage() {
 
  
   return (
+
+    
 
     <div className='container App'>
     
@@ -47,7 +50,7 @@ function SigninPage() {
 
  
 </div>
-    
+ 
   );
   
 }
