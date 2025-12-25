@@ -61,7 +61,9 @@ const images = [logo, css, html, javascript];
  
     
     </div>
-    <div className="container2"> <img src={Myimage}   className="my-image" alt="logo" /> </div>
+    <div className="container2 App App-header my-image"> 
+      <img src={Myimage}   className="my-image" alt="logo" /> 
+      </div>
     
     </div>  
     

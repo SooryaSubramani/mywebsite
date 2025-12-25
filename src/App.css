@@ -1,3 +1,21 @@
+html, body {
+  width: 100%;
+  max-width: 100%;
+   /*Clips any content exceeding the width
+  /* overflow-y: hidden; */
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+@media (max-width: 768px) {
+  .html, body { 
+    max-height: 100%;
+    max-width: 100%;
+   overflow-x: hidden;
+   display: block;  
+  }
+}
+
 .App {
   text-align: center;
   /* display: flex;
@@ -32,18 +50,23 @@
 }
 
 .home{
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
 }
 
-.my-image, .container2{
-  
-  align-items: center;
-  justify-items: end;  
-  
-  
+       
+@media (max-width: 768px) {
+  .home { 
+ 
+    height: 100%;
+    width: 100%;
+    flex-direction: column; 
+    justify-content: center;
+  }
 }
 
 .text{
@@ -58,14 +81,41 @@
 }
 .container1, .container2{
 flex: 1;
+height: 100%;
 flex-wrap: wrap;
-justify-content: center;
-justify-items: center;
-align-items: center;
+
 }
+
+@media (max-width: 768px) {
+  .container1, .container2 { 
+    
+    max-width: 100%;
+    height: 100%;
+    flex-direction: column; 
+    justify-content: center;
+    overflow-x: hidden; 
+  }
+}
+
+.container2 { 
+  align-items: end;
+  
+  }
+
+  @media (max-width: 768px) {
+    .container2 {
+      position: absolute;
+      /* position: sticky; */
+      z-index: -1;
+      max-width: 100%;
+    
+     }
+  }
+
 .App-link {
   color: #61dafb;
 }
+
 
 .link-no-underline{
   text-decoration: none;

@@ -9,6 +9,7 @@ import react_Headder from './components/react_Headder';
 import Reactheadder from './components/react_Headder';
 import Home from './components/home';
 import Body from './body';
+import './components/Home.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -26,8 +26,8 @@ function Reactheadder() {
           <img  width="40" height="32"  src={javascript} alt="logo" />
           {/* </a>  */}
       
-    <header class="d-flex justify-content-center py-3">
-      <ul class="nav nav-pills">
+    <header class="d-flex justify-content-center align-items-center py-3">
+      <ul class="nav nav-pills justify-content-center align-items-center">
         
         <Link to={'/signin'}  className='link-no-underline'><li class="nav-item nav-link">Home</li></Link>
         <Link to={'/signin'} className='link-no-underline'><li class="nav-item nav-link">About</li></Link>
