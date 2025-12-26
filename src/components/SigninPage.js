@@ -43,7 +43,7 @@ function SigninPage() {
     <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
     <label class="form-check-label" for="exampleCheck1">Check me out</label>
   </div>
- <Link to={'/home'}> <button type="submit" class="btn btn-primary" onClick={SigninSubmit}>Submit</button></Link>
+ <Link to={'/about'}> <button type="submit" class="btn btn-primary" onClick={SigninSubmit}>Submit</button></Link>
 </form>
 
 

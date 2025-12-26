@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import Badge from 'react-bootstrap/Badge';
 // import Button from 'react-bootstrap/Button';
 // import './App.css';
-import { Link, Outlet } from 'react-router';
+ import { Link, Outlet } from 'react-router-dom';
 
 
 
@@ -29,8 +29,8 @@ function Reactheadder() {
     <header class="d-flex justify-content-center align-items-center py-3">
       <ul class="nav nav-pills justify-content-center align-items-center">
         
-        <Link to={'/signin'}  className='link-no-underline'><li class="nav-item nav-link">Home</li></Link>
-        <Link to={'/signin'} className='link-no-underline'><li class="nav-item nav-link">About</li></Link>
+        <li class="nav-item nav-link"><Link to={'/mywebsite'}  className='link-no-underline'>Home</Link></li>
+        <li class="nav-item nav-link"><Link to={'/signin'} className='link-no-underline'>About</Link></li>
          <Link to={'/signin'} className='link-no-underline'><li class="nav-item nav-link">Learn</li></Link>
          <Link to={'/signin'} className='link-no-underline'><li class="nav-item nav-link">Blog</li></Link>
          <Link to={'/signin'} className='link-no-underline'><li class="nav-item nav-link">Contact</li></Link>
@@ -38,8 +38,9 @@ function Reactheadder() {
     </header>
     </div>
     </div>
+ 
+
     </div>
-   
   );
  
 }
