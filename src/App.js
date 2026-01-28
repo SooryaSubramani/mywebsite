@@ -36,12 +36,8 @@ const images = [logo, css, html, javascript];
   return (
 
     
-
   <div className='home' > 
-    
-       
-       <div className="container1 App App-header z-2">
-        
+      <div className="container1 App App-header z-2">
         <div>
         <img src={images[currentIndex]} id='myImage'  className="App-logo" alt="logo" />
         </div>
@@ -55,18 +51,12 @@ const images = [logo, css, html, javascript];
          Translating complex ideas into pixel-perfect digital reality with modern frontend tools.
         </p>
         </div>
-
-
         <a className="App-link"> Learn React  </a>        
- 
-    
-    </div>
+      </div>
     <div className="container2 App App-header my-image"> 
       <img src={Myimage}   className="my-image" alt="logo" /> 
-      </div>
-    
-    </div>  
-    
+    </div>
+  </div>  
   );
 
   

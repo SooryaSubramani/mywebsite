@@ -9,6 +9,7 @@ import Reactheadder from './components/react_Headder';
 import Home from './components/home';
 import Body from './body';
 import './components/Home.css';
+import Learn from './components/learn';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,6 +22,7 @@ root.render(
       <Route  path="/mywebsite" element={<App />} />
       <Route path="/signin" element={<SigninPage />} />
         <Route path="/about" element={<Home />} />
+      <Route path="/learn" element={<Learn />} />
     </Routes>
   </BrowserRouter>
  

@@ -31,7 +31,7 @@ function Reactheadder() {
         
         <li class="nav-item nav-link"><Link to={'/mywebsite'}  className='link-no-underline'>Home</Link></li>
         <li class="nav-item nav-link"><Link to={'/signin'} className='link-no-underline'>About</Link></li>
-         <Link to={'/signin'} className='link-no-underline'><li class="nav-item nav-link">Learn</li></Link>
+         <Link to={'/learn'} className='link-no-underline'><li class="nav-item nav-link">Learn</li></Link>
          <Link to={'/signin'} className='link-no-underline'><li class="nav-item nav-link">Blog</li></Link>
          <Link to={'/signin'} className='link-no-underline'><li class="nav-item nav-link">Contact</li></Link>
       </ul>

@@ -6,12 +6,13 @@ html, body {
   margin: 0;
   padding: 0;
   display: block;
-}
+  
+  }
 @media (max-width: 768px) {
   .html, body { 
     max-height: 100%;
     max-width: 100%;
-   overflow-x: hidden;
+   
    
   }
 }
@@ -96,7 +97,6 @@ flex-wrap: wrap;
     overflow-x: hidden; 
   }
 }
-
 .container2 { 
   align-items: end;
   
